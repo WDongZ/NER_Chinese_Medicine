@@ -1,0 +1,31 @@
+# 基础环境
+torch>=2.1.0
+transformers>=4.41.0
+accelerate>=0.31.0
+bitsandbytes>=0.42.0
+peft>=0.10.0
+datasets>=2.20.0
+evaluate>=0.4.2
+scikit-learn>=1.3.2
+numpy>=1.26.0
+pandas>=2.1.4
+tqdm>=4.66.1
+
+# 可视化与日志
+swanlab>=0.4.0
+matplotlib>=3.8.2
+seaborn>=0.13.0
+
+# 数据与调试辅助
+jsonlines>=4.0.0
+rich>=13.7.0
+sentencepiece>=0.1.99
+tokenizers>=0.19.0
+
+# 训练工具
+trl>=0.9.4
+huggingface-hub>=0.24.0
+
+# 如果使用 Jupyter/Colab
+ipython>=8.20.0
+jupyterlab>=4.1.0
