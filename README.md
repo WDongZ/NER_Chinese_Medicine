@@ -40,10 +40,9 @@ python train.py
 
 模型评测
 
-python eval_tcm_ner_swanlab.py
+python eval.py
 
 	•	自动计算词级 F1 / Precision / Recall
-	•	SwanLab 可视化评测进程
 
 推理示例
 ```python
