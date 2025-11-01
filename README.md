@@ -46,7 +46,7 @@ python eval_tcm_ner_swanlab.py
 	•	SwanLab 可视化评测进程
 
 推理示例
-
+```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 tokenizer = AutoTokenizer.from_pretrained("./tcm_ner_qlora_model")
@@ -63,7 +63,7 @@ outputs = model.generate(
 )
 pred_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(pred_text)
-
+```
 模型评测示例
 	•	中药 F1: ~0.787
 	•	临床表现 F1: ~0.604
